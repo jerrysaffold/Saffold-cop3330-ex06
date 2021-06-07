@@ -38,6 +38,6 @@ public class App {
         int retirement_year = thisYear + years_until_retire;
 
         System.out.printf("You have %d years left until you can retire.\nIt's %d, you can retire in %d.", years_until_retire,
-                retirement_year);
+                thisYear, retirement_year);
     }
 }
